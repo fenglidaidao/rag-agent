@@ -1,0 +1,640 @@
+2026-03-12 14:21:53 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:22:43 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:22:59 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:24:07 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:24:14 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:24:25 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:24:31 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:25:01 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:25:12 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:28:27 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:29:26 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:30:25 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:30:59 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:31:39 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 14:32:50 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:32:50 | WARNING  | main | 登录失败 | username=wrong
+2026-03-12 14:32:50 | WARNING  | main | HTTP 401 on /auth/login: 用户名或密码错误
+2026-03-12 14:32:50 | INFO     | main | ← POST /auth/login | status=401 | 8.95ms
+2026-03-12 14:33:39 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:33:39 | INFO     | main | 登录成功 | username=admin
+2026-03-12 14:33:39 | INFO     | main | ← POST /auth/login | status=200 | 181.35ms
+2026-03-12 14:33:43 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:33:43 | INFO     | main | 登录成功 | username=admin
+2026-03-12 14:33:43 | INFO     | main | ← POST /auth/login | status=200 | 73.8ms
+2026-03-12 14:33:43 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:33:43 | INFO     | main | 登录成功 | username=admin
+2026-03-12 14:33:43 | INFO     | main | ← POST /auth/login | status=200 | 77.83ms
+2026-03-12 14:33:44 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:33:44 | INFO     | main | 登录成功 | username=admin
+2026-03-12 14:33:44 | INFO     | main | ← POST /auth/login | status=200 | 72.25ms
+2026-03-12 14:33:44 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:33:44 | INFO     | main | 登录成功 | username=admin
+2026-03-12 14:33:44 | INFO     | main | ← POST /auth/login | status=200 | 74.09ms
+2026-03-12 14:33:45 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:33:45 | INFO     | main | 登录成功 | username=admin
+2026-03-12 14:33:45 | INFO     | main | ← POST /auth/login | status=200 | 73.21ms
+2026-03-12 14:33:45 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:33:45 | INFO     | main | 登录成功 | username=admin
+2026-03-12 14:33:45 | INFO     | main | ← POST /auth/login | status=200 | 79.45ms
+2026-03-12 14:33:46 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:33:46 | INFO     | main | 登录成功 | username=admin
+2026-03-12 14:33:46 | INFO     | main | ← POST /auth/login | status=200 | 73.27ms
+2026-03-12 14:33:46 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:33:46 | INFO     | main | 登录成功 | username=admin
+2026-03-12 14:33:46 | INFO     | main | ← POST /auth/login | status=200 | 73.8ms
+2026-03-12 14:33:47 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 14:33:47 | INFO     | main | ← POST /auth/login | status=429 | 2.99ms
+2026-03-12 14:35:36 | INFO     | main | → GET /docs | client=127.0.0.1
+2026-03-12 14:35:36 | INFO     | main | ← GET /docs | status=200 | 1.02ms
+2026-03-12 14:35:37 | INFO     | main | → GET /openapi.json | client=127.0.0.1
+2026-03-12 14:35:37 | INFO     | main | ← GET /openapi.json | status=200 | 45.02ms
+2026-03-12 14:36:51 | INFO     | main | → POST /uploadfile/ | client=127.0.0.1
+2026-03-12 14:36:51 | DEBUG    | file_security | 文件名安全处理：docker常用命令.png → docker常用命令.png
+2026-03-12 14:36:51 | DEBUG    | file_security | 文件大小校验通过：docker常用命令.png | 1.29KB
+2026-03-12 14:36:51 | WARNING  | main | 文件校验失败：文件内容与扩展名 '.png' 不匹配，疑似伪造文件类型
+2026-03-12 14:36:51 | INFO     | main | ← POST /uploadfile/ | status=200 | 11.98ms
+2026-03-12 15:40:24 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 15:40:24 | WARNING  | main | HTTP 401 on /conversations: Token 无效或已过期
+2026-03-12 15:40:24 | INFO     | main | ← GET /conversations | status=401 | 3.99ms
+2026-03-12 15:40:24 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 15:40:24 | WARNING  | main | HTTP 401 on /conversations: Token 无效或已过期
+2026-03-12 15:40:24 | INFO     | main | ← GET /conversations | status=401 | 2.89ms
+2026-03-12 15:40:38 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 15:40:38 | WARNING  | main | 登录失败 | username=admin
+2026-03-12 15:40:38 | WARNING  | main | HTTP 401 on /auth/login: 用户名或密码错误
+2026-03-12 15:40:38 | INFO     | main | ← POST /auth/login | status=401 | 71.78ms
+2026-03-12 15:40:53 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 15:40:53 | INFO     | main | 登录成功 | username=admin
+2026-03-12 15:40:53 | INFO     | main | ← POST /auth/login | status=200 | 72.02ms
+2026-03-12 15:40:53 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 15:40:53 | INFO     | main | ← GET /conversations | status=200 | 3.99ms
+2026-03-12 15:40:53 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 15:40:53 | INFO     | main | ← GET /conversations | status=200 | 3.8ms
+2026-03-12 15:44:00 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 15:44:00 | INFO     | main | ← GET /knowledge/list | status=200 | 6.98ms
+2026-03-12 15:44:00 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 15:44:00 | INFO     | main | ← GET /knowledge/list | status=200 | 4.17ms
+2026-03-12 15:44:24 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 15:44:24 | INFO     | main | ← GET /tools | status=200 | 3.99ms
+2026-03-12 15:44:24 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 15:44:24 | INFO     | main | ← GET /tools | status=200 | 4.94ms
+2026-03-12 15:44:35 | INFO     | main | → GET /conversations/df173bec-05c3-4b75-8c00-6bf7b61e3e7a/messages | client=127.0.0.1
+2026-03-12 15:44:35 | INFO     | main | ← GET /conversations/df173bec-05c3-4b75-8c00-6bf7b61e3e7a/messages | status=200 | 3.99ms
+2026-03-12 15:44:35 | INFO     | main | → GET /conversations/1ca15b1d-663c-4f4c-8e82-9b79b7ee3c7a/messages | client=127.0.0.1
+2026-03-12 15:44:35 | INFO     | main | ← GET /conversations/1ca15b1d-663c-4f4c-8e82-9b79b7ee3c7a/messages | status=200 | 2.55ms
+2026-03-12 15:44:38 | INFO     | main | → GET /conversations/df173bec-05c3-4b75-8c00-6bf7b61e3e7a/messages | client=127.0.0.1
+2026-03-12 15:44:38 | INFO     | main | ← GET /conversations/df173bec-05c3-4b75-8c00-6bf7b61e3e7a/messages | status=200 | 3.06ms
+2026-03-12 15:44:39 | INFO     | main | → GET /conversations/1ca15b1d-663c-4f4c-8e82-9b79b7ee3c7a/messages | client=127.0.0.1
+2026-03-12 15:44:39 | INFO     | main | ← GET /conversations/1ca15b1d-663c-4f4c-8e82-9b79b7ee3c7a/messages | status=200 | 3.76ms
+2026-03-12 15:44:47 | INFO     | main | → POST /conversations | client=127.0.0.1
+2026-03-12 15:44:47 | INFO     | main | ← POST /conversations | status=200 | 10.31ms
+2026-03-12 15:44:47 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 15:44:47 | INFO     | main | ← GET /conversations | status=200 | 2.81ms
+2026-03-12 15:45:20 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 15:45:20 | INFO     | main | ← GET /tools | status=200 | 2.01ms
+2026-03-12 15:45:21 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 15:45:21 | INFO     | main | ← GET /tools | status=200 | 4.29ms
+2026-03-12 15:45:23 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 15:45:23 | INFO     | main | ← GET /knowledge/list | status=200 | 2.16ms
+2026-03-12 15:45:23 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 15:45:23 | INFO     | main | ← GET /knowledge/list | status=200 | 2.1ms
+2026-03-12 15:45:23 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 15:45:23 | INFO     | main | ← GET /tools | status=200 | 3.39ms
+2026-03-12 15:45:23 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 15:45:23 | INFO     | main | ← GET /tools | status=200 | 4.19ms
+2026-03-12 15:45:58 | INFO     | main | → POST /auth/register | client=127.0.0.1
+2026-03-12 15:45:59 | INFO     | main | ← POST /auth/register | status=200 | 78.31ms
+2026-03-12 15:46:06 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 15:46:06 | INFO     | main | 登录成功 | username=fenglidaidao
+2026-03-12 15:46:06 | INFO     | main | ← POST /auth/login | status=200 | 80.94ms
+2026-03-12 15:46:06 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 15:46:06 | INFO     | main | ← GET /conversations | status=200 | 7.22ms
+2026-03-12 15:46:07 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 15:46:07 | INFO     | main | ← GET /conversations | status=200 | 6.18ms
+2026-03-12 15:46:19 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 15:46:19 | INFO     | main | ← GET /knowledge/list | status=200 | 2.19ms
+2026-03-12 15:46:19 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 15:46:19 | INFO     | main | ← GET /knowledge/list | status=200 | 4.78ms
+2026-03-12 15:46:39 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 15:46:39 | INFO     | main | ← GET /knowledge/list | status=200 | 1.99ms
+2026-03-12 15:46:53 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 15:46:53 | INFO     | main | ← GET /tools | status=200 | 1.99ms
+2026-03-12 15:46:53 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 15:46:53 | INFO     | main | ← GET /tools | status=200 | 2.95ms
+2026-03-12 15:47:17 | INFO     | main | → POST /conversations | client=127.0.0.1
+2026-03-12 15:47:17 | INFO     | main | ← POST /conversations | status=200 | 9.04ms
+2026-03-12 15:47:18 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 15:47:18 | INFO     | main | ← GET /conversations | status=200 | 2.03ms
+2026-03-12 15:47:18 | INFO     | main | → GET /conversations/cd0d61e7-18d7-4ad2-8691-9b735bacf24c/messages | client=127.0.0.1
+2026-03-12 15:47:18 | INFO     | main | ← GET /conversations/cd0d61e7-18d7-4ad2-8691-9b735bacf24c/messages | status=200 | 2.46ms
+2026-03-12 15:47:20 | INFO     | main | → GET /conversations/cd0d61e7-18d7-4ad2-8691-9b735bacf24c/messages | client=127.0.0.1
+2026-03-12 15:47:20 | INFO     | main | ← GET /conversations/cd0d61e7-18d7-4ad2-8691-9b735bacf24c/messages | status=200 | 3.32ms
+2026-03-12 15:47:21 | INFO     | main | → DELETE /conversations/cd0d61e7-18d7-4ad2-8691-9b735bacf24c | client=127.0.0.1
+2026-03-12 15:47:21 | INFO     | main | ← DELETE /conversations/cd0d61e7-18d7-4ad2-8691-9b735bacf24c | status=200 | 11.33ms
+2026-03-12 15:47:21 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 15:47:21 | INFO     | main | ← GET /conversations | status=200 | 2.0ms
+2026-03-12 15:48:47 | INFO     | main | → POST /conversations | client=127.0.0.1
+2026-03-12 15:48:47 | INFO     | main | ← POST /conversations | status=200 | 12.5ms
+2026-03-12 15:48:47 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 15:48:47 | INFO     | main | ← GET /conversations | status=200 | 1.79ms
+2026-03-12 15:48:47 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 15:48:47 | INFO     | main | ← POST /chat/stream | status=200 | 16.3ms
+2026-03-12 15:53:33 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 15:54:06 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 15:56:11 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 15:59:27 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 15:59:45 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 15:59:45 | INFO     | main | ← POST /chat/stream | status=200 | 109.07ms
+2026-03-12 15:59:47 | INFO     | intent_router | ROUTER:chat
+2026-03-12 15:59:47 | INFO     | router | ROUTER (stream): chat
+2026-03-12 16:00:10 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:00:10 | INFO     | main | ← POST /chat/stream | status=200 | 16.91ms
+2026-03-12 16:00:11 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:00:11 | INFO     | router | ROUTER (stream): chat
+2026-03-12 16:00:43 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:00:43 | INFO     | main | ← POST /chat/stream | status=200 | 25.49ms
+2026-03-12 16:00:44 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:00:44 | INFO     | router | ROUTER (stream): chat
+2026-03-12 16:00:51 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:00:51 | INFO     | main | ← POST /chat/stream | status=200 | 15.25ms
+2026-03-12 16:00:55 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:00:55 | INFO     | router | ROUTER (stream): chat
+2026-03-12 16:02:40 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 16:02:58 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 16:03:33 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 16:04:06 | INFO     | main | 登录成功 | username=fenglidaidao
+2026-03-12 16:04:06 | INFO     | main | ← POST /auth/login | status=200 | 32909.27ms
+2026-03-12 16:04:14 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 16:04:43 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 16:04:43 | INFO     | main | 登录成功 | username=fenglidaidao
+2026-03-12 16:04:43 | INFO     | main | ← POST /auth/login | status=200 | 159.44ms
+2026-03-12 16:04:43 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 16:04:43 | INFO     | main | ← GET /conversations | status=200 | 5.98ms
+2026-03-12 16:04:44 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 16:04:44 | INFO     | main | ← GET /conversations | status=200 | 6.1ms
+2026-03-12 16:04:46 | INFO     | main | → GET /conversations/64a01dc6-cebc-4c76-9f15-b973aab1c312/messages | client=127.0.0.1
+2026-03-12 16:04:46 | INFO     | main | ← GET /conversations/64a01dc6-cebc-4c76-9f15-b973aab1c312/messages | status=200 | 6.01ms
+2026-03-12 16:04:50 | INFO     | main | → DELETE /conversations/64a01dc6-cebc-4c76-9f15-b973aab1c312 | client=127.0.0.1
+2026-03-12 16:04:50 | INFO     | main | ← DELETE /conversations/64a01dc6-cebc-4c76-9f15-b973aab1c312 | status=200 | 11.92ms
+2026-03-12 16:04:51 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 16:04:51 | INFO     | main | ← GET /conversations | status=200 | 4.99ms
+2026-03-12 16:05:33 | INFO     | main | → POST /conversations | client=127.0.0.1
+2026-03-12 16:05:33 | INFO     | main | ← POST /conversations | status=200 | 9.76ms
+2026-03-12 16:05:34 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 16:05:34 | INFO     | main | ← GET /conversations | status=200 | 2.69ms
+2026-03-12 16:05:34 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:05:34 | INFO     | main | ← POST /chat/stream | status=200 | 28.32ms
+2026-03-12 16:05:35 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:05:35 | INFO     | router | ROUTER (stream): chat
+2026-03-12 16:06:43 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:06:43 | INFO     | main | ← POST /chat/stream | status=200 | 18.16ms
+2026-03-12 16:06:45 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:06:45 | INFO     | router | ROUTER (stream): chat
+2026-03-12 16:07:21 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:07:21 | INFO     | main | ← POST /chat/stream | status=200 | 15.02ms
+2026-03-12 16:07:23 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:07:23 | INFO     | router | ROUTER (stream): chat
+2026-03-12 16:09:30 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 16:09:46 | INFO     | main | → POST /conversations | client=127.0.0.1
+2026-03-12 16:09:46 | INFO     | main | ← POST /conversations | status=200 | 119.74ms
+2026-03-12 16:09:46 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 16:09:46 | INFO     | main | ← GET /conversations | status=200 | 3.0ms
+2026-03-12 16:10:24 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:10:24 | INFO     | main | ← POST /chat/stream | status=200 | 14.59ms
+2026-03-12 16:10:25 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:10:25 | INFO     | router | ROUTER (stream): chat
+2026-03-12 16:10:42 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:10:42 | INFO     | main | ← POST /chat/stream | status=200 | 15.0ms
+2026-03-12 16:10:43 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:10:43 | INFO     | router | ROUTER (stream): chat
+2026-03-12 16:10:59 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:10:59 | INFO     | main | ← POST /chat/stream | status=200 | 15.97ms
+2026-03-12 16:11:00 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:11:00 | INFO     | router | ROUTER (stream): chat
+2026-03-12 16:13:55 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 16:14:03 | INFO     | main | → POST /conversations | client=127.0.0.1
+2026-03-12 16:14:03 | INFO     | main | ← POST /conversations | status=200 | 104.42ms
+2026-03-12 16:14:03 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 16:14:03 | INFO     | main | ← GET /conversations | status=200 | 5.94ms
+2026-03-12 16:14:29 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:14:29 | INFO     | main | ← POST /chat/stream | status=200 | 18.11ms
+2026-03-12 16:14:31 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:14:31 | INFO     | router | run_agent_stream | intent=chat | thread_id=00ba4a38-7d02-4ba7-84ab-2c1cc941d99e
+2026-03-12 16:14:31 | INFO     | general_agent | general_agent | thread_id=00ba4a38-7d02-4ba7-84ab-2c1cc941d99e | question=你好，我叫fenglidaidao，你叫什么名字，可以称呼你为小智吗？
+2026-03-12 16:14:32 | INFO     | general_agent | general_agent | 消息历史长度=2
+2026-03-12 16:14:32 | INFO     | general_agent |   [0] human: 你好，我叫fenglidaidao，你叫什么名字，可以称呼你为小智吗？
+2026-03-12 16:14:32 | INFO     | general_agent |   [1] ai: 你好，fenglidaidao！你可以叫我小智，当然也可以叫我其他你喜欢的名字。有什么我可以帮助你的吗？
+2026-03-12 16:14:51 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:14:51 | INFO     | main | ← POST /chat/stream | status=200 | 18.47ms
+2026-03-12 16:14:52 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:14:52 | INFO     | router | run_agent_stream | intent=chat | thread_id=00ba4a38-7d02-4ba7-84ab-2c1cc941d99e
+2026-03-12 16:14:52 | INFO     | general_agent | general_agent | thread_id=00ba4a38-7d02-4ba7-84ab-2c1cc941d99e | question=你喜欢我给你起的名字吗？
+2026-03-12 16:14:54 | INFO     | general_agent | general_agent | 消息历史长度=4
+2026-03-12 16:14:54 | INFO     | general_agent |   [0] human: 你好，我叫fenglidaidao，你叫什么名字，可以称呼你为小智吗？
+2026-03-12 16:14:54 | INFO     | general_agent |   [1] ai: 你好，fenglidaidao！你可以叫我小智，当然也可以叫我其他你喜欢的名字。有什么我可以帮助你的吗？
+2026-03-12 16:14:54 | INFO     | general_agent |   [2] human: 你喜欢我给你起的名字吗？
+2026-03-12 16:14:54 | INFO     | general_agent |   [3] ai: 我觉得“小智”这个名字很不错！它听起来聪明又亲切。如果你喜欢这个名字，那我也很高兴。你还有其他想聊的话题吗？
+2026-03-12 16:15:11 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:15:11 | INFO     | main | ← POST /chat/stream | status=200 | 15.04ms
+2026-03-12 16:15:12 | INFO     | intent_router | ROUTER:chat
+2026-03-12 16:15:12 | INFO     | router | run_agent_stream | intent=chat | thread_id=00ba4a38-7d02-4ba7-84ab-2c1cc941d99e
+2026-03-12 16:15:12 | INFO     | general_agent | general_agent | thread_id=00ba4a38-7d02-4ba7-84ab-2c1cc941d99e | question=那我叫什么名字，你还记得吗？
+2026-03-12 16:15:13 | INFO     | general_agent | general_agent | 消息历史长度=6
+2026-03-12 16:15:13 | INFO     | general_agent |   [0] human: 你好，我叫fenglidaidao，你叫什么名字，可以称呼你为小智吗？
+2026-03-12 16:15:13 | INFO     | general_agent |   [1] ai: 你好，fenglidaidao！你可以叫我小智，当然也可以叫我其他你喜欢的名字。有什么我可以帮助你的吗？
+2026-03-12 16:15:13 | INFO     | general_agent |   [2] human: 你喜欢我给你起的名字吗？
+2026-03-12 16:15:13 | INFO     | general_agent |   [3] ai: 我觉得“小智”这个名字很不错！它听起来聪明又亲切。如果你喜欢这个名字，那我也很高兴。你还有其他想聊的话题吗？
+2026-03-12 16:15:13 | INFO     | general_agent |   [4] human: 那我叫什么名字，你还记得吗？
+2026-03-12 16:15:13 | INFO     | general_agent |   [5] ai: 当然记得，你叫fenglidaidao！如果你有其他问题或者想聊的内容，随时告诉我！
+2026-03-12 16:15:36 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:15:36 | INFO     | main | ← GET /knowledge/list | status=200 | 1.0ms
+2026-03-12 16:15:36 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:15:36 | INFO     | main | ← GET /knowledge/list | status=200 | 1.67ms
+2026-03-12 16:15:53 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:15:53 | INFO     | main | ← GET /knowledge/list | status=200 | 1.06ms
+2026-03-12 16:16:34 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 16:16:34 | INFO     | main | 登录成功 | username=fenglidaidao
+2026-03-12 16:16:34 | INFO     | main | ← POST /auth/login | status=200 | 92.78ms
+2026-03-12 16:16:35 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 16:16:35 | INFO     | main | ← GET /conversations | status=200 | 2.12ms
+2026-03-12 16:16:35 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 16:16:35 | INFO     | main | ← GET /conversations | status=200 | 6.55ms
+2026-03-12 16:16:38 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:38 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 4.42ms
+2026-03-12 16:16:39 | INFO     | main | → GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | client=127.0.0.1
+2026-03-12 16:16:39 | INFO     | main | ← GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | status=200 | 3.69ms
+2026-03-12 16:16:40 | INFO     | main | → GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | client=127.0.0.1
+2026-03-12 16:16:40 | INFO     | main | ← GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | status=200 | 3.99ms
+2026-03-12 16:16:41 | INFO     | main | → GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | client=127.0.0.1
+2026-03-12 16:16:41 | INFO     | main | ← GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | status=200 | 3.0ms
+2026-03-12 16:16:41 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:41 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 3.49ms
+2026-03-12 16:16:42 | INFO     | main | → GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | client=127.0.0.1
+2026-03-12 16:16:42 | INFO     | main | ← GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | status=200 | 3.64ms
+2026-03-12 16:16:43 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:43 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 3.66ms
+2026-03-12 16:16:43 | INFO     | main | → GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | client=127.0.0.1
+2026-03-12 16:16:43 | INFO     | main | ← GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | status=200 | 8.98ms
+2026-03-12 16:16:44 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:44 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 2.99ms
+2026-03-12 16:16:45 | INFO     | main | → GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | client=127.0.0.1
+2026-03-12 16:16:45 | INFO     | main | ← GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | status=200 | 3.07ms
+2026-03-12 16:16:45 | INFO     | main | → GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | client=127.0.0.1
+2026-03-12 16:16:45 | INFO     | main | ← GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | status=200 | 3.05ms
+2026-03-12 16:16:46 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:46 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 4.01ms
+2026-03-12 16:16:46 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:46 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 3.2ms
+2026-03-12 16:16:46 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:46 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 3.1ms
+2026-03-12 16:16:47 | INFO     | main | → GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | client=127.0.0.1
+2026-03-12 16:16:47 | INFO     | main | ← GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | status=200 | 3.41ms
+2026-03-12 16:16:47 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:47 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 2.81ms
+2026-03-12 16:16:48 | INFO     | main | → GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | client=127.0.0.1
+2026-03-12 16:16:48 | INFO     | main | ← GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | status=200 | 3.79ms
+2026-03-12 16:16:48 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:48 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 2.28ms
+2026-03-12 16:16:48 | INFO     | main | → GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | client=127.0.0.1
+2026-03-12 16:16:48 | INFO     | main | ← GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | status=200 | 2.66ms
+2026-03-12 16:16:49 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:49 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 2.85ms
+2026-03-12 16:16:51 | INFO     | main | → GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | client=127.0.0.1
+2026-03-12 16:16:51 | INFO     | main | ← GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | status=200 | 8.98ms
+2026-03-12 16:16:52 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 16:16:52 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 4.63ms
+2026-03-12 16:16:55 | INFO     | main | → GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | client=127.0.0.1
+2026-03-12 16:16:55 | INFO     | main | ← GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | status=200 | 2.99ms
+2026-03-12 16:41:16 | INFO     | main | → POST /auth/login | client=127.0.0.1
+2026-03-12 16:41:16 | INFO     | main | 登录成功 | username=fenglidaidao
+2026-03-12 16:41:16 | INFO     | main | ← POST /auth/login | status=200 | 76.35ms
+2026-03-12 16:41:16 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 16:41:16 | INFO     | main | ← GET /conversations | status=200 | 2.97ms
+2026-03-12 16:41:16 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 16:41:16 | INFO     | main | ← GET /conversations | status=200 | 3.99ms
+2026-03-12 16:41:27 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:41:27 | INFO     | main | ← GET /knowledge/list | status=200 | 2.16ms
+2026-03-12 16:41:28 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:41:28 | INFO     | main | ← GET /knowledge/list | status=200 | 3.85ms
+2026-03-12 16:41:29 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 16:41:29 | INFO     | main | ← GET /tools | status=200 | 4.98ms
+2026-03-12 16:41:29 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 16:41:29 | INFO     | main | ← GET /tools | status=200 | 4.67ms
+2026-03-12 16:42:24 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 16:42:24 | INFO     | main | ← GET /tools | status=200 | 1.99ms
+2026-03-12 16:42:24 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 16:42:24 | INFO     | main | ← GET /tools | status=200 | 1.61ms
+2026-03-12 16:42:26 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:42:26 | INFO     | main | ← GET /knowledge/list | status=200 | 1.96ms
+2026-03-12 16:42:26 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:42:26 | INFO     | main | ← GET /knowledge/list | status=200 | 4.01ms
+2026-03-12 16:42:26 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 16:42:26 | INFO     | main | ← GET /tools | status=200 | 3.0ms
+2026-03-12 16:42:27 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 16:42:27 | INFO     | main | ← GET /tools | status=200 | 5.04ms
+2026-03-12 16:42:27 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:42:27 | INFO     | main | ← GET /knowledge/list | status=200 | 2.18ms
+2026-03-12 16:42:28 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:42:28 | INFO     | main | ← GET /knowledge/list | status=200 | 2.99ms
+2026-03-12 16:42:28 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:42:28 | INFO     | main | ← GET /knowledge/list | status=200 | 2.0ms
+2026-03-12 16:42:28 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:42:28 | INFO     | main | ← GET /knowledge/list | status=200 | 5.31ms
+2026-03-12 16:42:28 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 16:42:28 | INFO     | main | ← GET /tools | status=200 | 2.0ms
+2026-03-12 16:42:29 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 16:42:29 | INFO     | main | ← GET /tools | status=200 | 2.99ms
+2026-03-12 16:43:27 | INFO     | main | → POST /uploadfile/ | client=127.0.0.1
+2026-03-12 16:43:27 | DEBUG    | file_security | 文件名安全处理：chatGPT泰国手机账户.png → chatGPT泰国手机账户.png
+2026-03-12 16:43:27 | DEBUG    | file_security | 文件大小校验通过：chatGPT泰国手机账户.png | 108.76KB
+2026-03-12 16:43:27 | DEBUG    | file_security | magic bytes 校验通过：chatGPT泰国手机账户.png
+2026-03-12 16:43:27 | INFO     | file_security | 文件校验通过：chatGPT泰国手机账户.png | 大小=108.76KB
+2026-03-12 16:43:31 | INFO     | main | ← POST /uploadfile/ | status=200 | 3641.82ms
+2026-03-12 16:43:56 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:43:56 | INFO     | main | ← POST /chat/stream | status=200 | 16.74ms
+2026-03-12 16:43:57 | INFO     | intent_router | ROUTER:rag
+2026-03-12 16:43:57 | INFO     | router | run_agent_stream | intent=rag | thread_id=00ba4a38-7d02-4ba7-84ab-2c1cc941d99e
+2026-03-12 16:51:17 | INFO     | main | → POST /uploadfile/ | client=127.0.0.1
+2026-03-12 16:51:17 | DEBUG    | file_security | 文件名安全处理：docker常用命令.txt → docker常用命令.txt
+2026-03-12 16:51:17 | DEBUG    | file_security | 文件大小校验通过：docker常用命令.txt | 1.29KB
+2026-03-12 16:51:17 | INFO     | file_security | 文件校验通过：docker常用命令.txt | 大小=1.29KB
+2026-03-12 16:51:18 | INFO     | main | ← POST /uploadfile/ | status=200 | 1309.68ms
+2026-03-12 16:51:37 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:51:37 | INFO     | main | ← POST /chat/stream | status=200 | 16.86ms
+2026-03-12 16:51:38 | INFO     | intent_router | ROUTER:rag
+2026-03-12 16:51:38 | INFO     | router | run_agent_stream | intent=rag | thread_id=00ba4a38-7d02-4ba7-84ab-2c1cc941d99e
+2026-03-12 16:51:54 | INFO     | main | → POST /uploadfile/ | client=127.0.0.1
+2026-03-12 16:51:54 | DEBUG    | file_security | 文件名安全处理：chatGPT泰国手机账户.png → chatGPT泰国手机账户.png
+2026-03-12 16:51:54 | DEBUG    | file_security | 文件大小校验通过：chatGPT泰国手机账户.png | 108.76KB
+2026-03-12 16:51:54 | DEBUG    | file_security | magic bytes 校验通过：chatGPT泰国手机账户.png
+2026-03-12 16:51:54 | INFO     | file_security | 文件校验通过：chatGPT泰国手机账户.png | 大小=108.76KB
+2026-03-12 16:51:58 | INFO     | main | ← POST /uploadfile/ | status=200 | 4694.84ms
+2026-03-12 16:52:33 | INFO     | main | → POST /uploadfile/ | client=127.0.0.1
+2026-03-12 16:52:33 | DEBUG    | file_security | 文件名安全处理：company.csv → company.csv
+2026-03-12 16:52:33 | DEBUG    | file_security | 文件大小校验通过：company.csv | 0.06KB
+2026-03-12 16:52:33 | INFO     | file_security | 文件校验通过：company.csv | 大小=0.06KB
+2026-03-12 16:52:33 | INFO     | main | ← POST /uploadfile/ | status=200 | 3.99ms
+2026-03-12 16:52:54 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 16:52:54 | INFO     | main | ← POST /chat/stream | status=200 | 18.35ms
+2026-03-12 16:52:55 | INFO     | intent_router | ROUTER:rag
+2026-03-12 16:52:55 | INFO     | router | run_agent_stream | intent=rag | thread_id=00ba4a38-7d02-4ba7-84ab-2c1cc941d99e
+2026-03-12 16:53:15 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:53:15 | INFO     | main | ← GET /knowledge/list | status=200 | 2.99ms
+2026-03-12 16:53:15 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:53:15 | INFO     | main | ← GET /knowledge/list | status=200 | 1.99ms
+2026-03-12 16:53:18 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:53:18 | INFO     | main | ← GET /knowledge/list | status=200 | 2.44ms
+2026-03-12 16:53:18 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 16:53:18 | INFO     | main | ← GET /knowledge/list | status=200 | 3.99ms
+2026-03-12 16:56:14 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 17:04:10 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 17:04:10 | INFO     | main | ← GET /knowledge/list | status=200 | 3.02ms
+2026-03-12 17:04:10 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 17:04:10 | INFO     | main | ← GET /knowledge/list | status=200 | 2.26ms
+2026-03-12 17:04:22 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 17:04:22 | INFO     | main | ← GET /tools | status=200 | 4.31ms
+2026-03-12 17:04:23 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 17:04:23 | INFO     | main | ← GET /tools | status=200 | 1.39ms
+2026-03-12 18:28:12 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 18:29:13 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 18:31:11 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:31:12 | INFO     | main | ← GET /conversations | status=200 | 93.76ms
+2026-03-12 18:33:17 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:33:17 | INFO     | main | ← GET /conversations | status=200 | 2.99ms
+2026-03-12 18:33:17 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:33:17 | INFO     | main | ← GET /conversations | status=200 | 2.62ms
+2026-03-12 18:33:40 | INFO     | main | → POST /conversations | client=127.0.0.1
+2026-03-12 18:33:40 | INFO     | main | ← POST /conversations | status=200 | 9.29ms
+2026-03-12 18:33:40 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:33:41 | INFO     | main | ← GET /conversations | status=200 | 1.99ms
+2026-03-12 18:33:41 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 18:33:41 | INFO     | main | ← POST /chat/stream | status=200 | 18.95ms
+2026-03-12 18:33:42 | INFO     | intent_router | ROUTER:chat
+2026-03-12 18:33:42 | INFO     | router | run_agent_stream | intent=chat | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c
+2026-03-12 18:33:42 | INFO     | general_agent | general_agent | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c | question=我是谁你还记得吗？
+2026-03-12 18:33:43 | INFO     | general_agent | general_agent | 消息历史长度=2
+2026-03-12 18:33:43 | INFO     | general_agent |   [0] human: 我是谁你还记得吗？
+2026-03-12 18:33:43 | INFO     | general_agent |   [1] ai: 我没有记忆功能，所以无法记住之前的对话或用户信息。不过，我很高兴能和你交流！请问有什么我可以帮助你的吗？
+2026-03-12 18:33:47 | INFO     | main | → GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | client=127.0.0.1
+2026-03-12 18:33:47 | INFO     | main | ← GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | status=200 | 4.99ms
+2026-03-12 18:33:57 | INFO     | main | → GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | client=127.0.0.1
+2026-03-12 18:33:57 | INFO     | main | ← GET /conversations/236d7d94-8466-4658-a9d9-8190f8361fc6/messages | status=200 | 3.33ms
+2026-03-12 18:33:59 | INFO     | main | → GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | client=127.0.0.1
+2026-03-12 18:33:59 | INFO     | main | ← GET /conversations/aed996e9-5a53-4db3-a834-4fc34fc2dd91/messages | status=200 | 3.28ms
+2026-03-12 18:34:00 | INFO     | main | → GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | client=127.0.0.1
+2026-03-12 18:34:00 | INFO     | main | ← GET /conversations/00ba4a38-7d02-4ba7-84ab-2c1cc941d99e/messages | status=200 | 2.99ms
+2026-03-12 18:34:04 | INFO     | main | → GET /conversations/630d240e-e5f4-4fa6-9e9b-08bd6dc9607c/messages | client=127.0.0.1
+2026-03-12 18:34:04 | INFO     | main | ← GET /conversations/630d240e-e5f4-4fa6-9e9b-08bd6dc9607c/messages | status=200 | 3.99ms
+2026-03-12 18:34:25 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 18:34:25 | INFO     | main | ← POST /chat/stream | status=200 | 14.68ms
+2026-03-12 18:34:26 | INFO     | intent_router | ROUTER:chat
+2026-03-12 18:34:26 | INFO     | router | run_agent_stream | intent=chat | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c
+2026-03-12 18:34:26 | INFO     | general_agent | general_agent | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c | question=我叫fenglidaidao，可以称呼你为小智吗？
+2026-03-12 18:34:27 | INFO     | general_agent | general_agent | 消息历史长度=4
+2026-03-12 18:34:27 | INFO     | general_agent |   [0] human: 我是谁你还记得吗？
+2026-03-12 18:34:27 | INFO     | general_agent |   [1] ai: 我没有记忆功能，所以无法记住之前的对话或用户信息。不过，我很高兴能和你交流！请问有什么我可以帮助你的吗？
+2026-03-12 18:34:27 | INFO     | general_agent |   [2] human: 我叫fenglidaidao，可以称呼你为小智吗？
+2026-03-12 18:34:27 | INFO     | general_agent |   [3] ai: 当然可以，fenglidaidao！你可以叫我小智。有什么我可以帮助你的吗？
+2026-03-12 18:34:34 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 18:34:35 | INFO     | main | ← POST /chat/stream | status=200 | 17.74ms
+2026-03-12 18:34:36 | INFO     | intent_router | ROUTER:chat
+2026-03-12 18:34:36 | INFO     | router | run_agent_stream | intent=chat | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c
+2026-03-12 18:34:36 | INFO     | general_agent | general_agent | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c | question=小智是谁？
+2026-03-12 18:34:38 | INFO     | general_agent | general_agent | 消息历史长度=6
+2026-03-12 18:34:38 | INFO     | general_agent |   [0] human: 我是谁你还记得吗？
+2026-03-12 18:34:38 | INFO     | general_agent |   [1] ai: 我没有记忆功能，所以无法记住之前的对话或用户信息。不过，我很高兴能和你交流！请问有什么我可以帮助你的吗？
+2026-03-12 18:34:38 | INFO     | general_agent |   [2] human: 我叫fenglidaidao，可以称呼你为小智吗？
+2026-03-12 18:34:38 | INFO     | general_agent |   [3] ai: 当然可以，fenglidaidao！你可以叫我小智。有什么我可以帮助你的吗？
+2026-03-12 18:34:38 | INFO     | general_agent |   [4] human: 小智是谁？
+2026-03-12 18:34:38 | INFO     | general_agent |   [5] ai: “小智”是一个常见的名字，可能指代不同的人物或角色。在中文语境中，它也可能让人联想到《精灵宝可梦》中的角色小智（Ash 
+2026-03-12 18:34:47 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 18:34:47 | INFO     | main | ← POST /chat/stream | status=200 | 64.62ms
+2026-03-12 18:34:48 | INFO     | intent_router | ROUTER:chat
+2026-03-12 18:34:48 | INFO     | router | run_agent_stream | intent=chat | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c
+2026-03-12 18:34:48 | INFO     | general_agent | general_agent | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c | question=小智不是你吗？
+2026-03-12 18:34:49 | INFO     | general_agent | general_agent | 消息历史长度=8
+2026-03-12 18:34:49 | INFO     | general_agent |   [0] human: 我是谁你还记得吗？
+2026-03-12 18:34:49 | INFO     | general_agent |   [1] ai: 我没有记忆功能，所以无法记住之前的对话或用户信息。不过，我很高兴能和你交流！请问有什么我可以帮助你的吗？
+2026-03-12 18:34:49 | INFO     | general_agent |   [2] human: 我叫fenglidaidao，可以称呼你为小智吗？
+2026-03-12 18:34:49 | INFO     | general_agent |   [3] ai: 当然可以，fenglidaidao！你可以叫我小智。有什么我可以帮助你的吗？
+2026-03-12 18:34:49 | INFO     | general_agent |   [4] human: 小智是谁？
+2026-03-12 18:34:49 | INFO     | general_agent |   [5] ai: “小智”是一个常见的名字，可能指代不同的人物或角色。在中文语境中，它也可能让人联想到《精灵宝可梦》中的角色小智（Ash 
+2026-03-12 18:34:49 | INFO     | general_agent |   [6] human: 小智不是你吗？
+2026-03-12 18:34:49 | INFO     | general_agent |   [7] ai: 是的，你可以称呼我为小智！这是你给我起的名字，我很高兴你这样称呼我。有什么问题或者话题想要讨论吗？
+2026-03-12 18:34:54 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 18:34:54 | INFO     | main | ← POST /chat/stream | status=200 | 16.3ms
+2026-03-12 18:34:55 | INFO     | intent_router | ROUTER:chat
+2026-03-12 18:34:55 | INFO     | router | run_agent_stream | intent=chat | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c
+2026-03-12 18:34:55 | INFO     | general_agent | general_agent | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c | question=那我是谁？
+2026-03-12 18:34:56 | INFO     | general_agent | general_agent | 消息历史长度=10
+2026-03-12 18:34:56 | INFO     | general_agent |   [0] human: 我是谁你还记得吗？
+2026-03-12 18:34:56 | INFO     | general_agent |   [1] ai: 我没有记忆功能，所以无法记住之前的对话或用户信息。不过，我很高兴能和你交流！请问有什么我可以帮助你的吗？
+2026-03-12 18:34:56 | INFO     | general_agent |   [2] human: 我叫fenglidaidao，可以称呼你为小智吗？
+2026-03-12 18:34:56 | INFO     | general_agent |   [3] ai: 当然可以，fenglidaidao！你可以叫我小智。有什么我可以帮助你的吗？
+2026-03-12 18:34:56 | INFO     | general_agent |   [4] human: 小智是谁？
+2026-03-12 18:34:56 | INFO     | general_agent |   [5] ai: “小智”是一个常见的名字，可能指代不同的人物或角色。在中文语境中，它也可能让人联想到《精灵宝可梦》中的角色小智（Ash 
+2026-03-12 18:34:56 | INFO     | general_agent |   [6] human: 小智不是你吗？
+2026-03-12 18:34:56 | INFO     | general_agent |   [7] ai: 是的，你可以称呼我为小智！这是你给我起的名字，我很高兴你这样称呼我。有什么问题或者话题想要讨论吗？
+2026-03-12 18:34:56 | INFO     | general_agent |   [8] human: 那我是谁？
+2026-03-12 18:34:56 | INFO     | general_agent |   [9] ai: 你是fenglidaidao，这是你之前告诉我的名字。很高兴认识你！如果你有任何问题或想讨论的内容，请随时告诉我。
+2026-03-12 18:35:43 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 18:35:43 | INFO     | main | ← POST /chat/stream | status=200 | 20.04ms
+2026-03-12 18:35:44 | INFO     | intent_router | ROUTER:rag
+2026-03-12 18:35:44 | INFO     | router | run_agent_stream | intent=rag | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c
+2026-03-12 18:35:44 | INFO     | rag_agent | rag_agent called | question=【引用内容】
+“小智”是一个常见的名字，可能指代不同的人物或角色。在中文语境中，它也可能让人联想到《精灵宝可梦》中的角色小智（Ash Ketchum），他是一个训练师，梦想成为宝可梦大师。如果你有特定的“小智”想要讨论，欢迎告诉我！
+
+【追问】
+精灵宝可梦中小智的宠物叫什么？ | thread_id=630d240e-e5f4-4fa6-9e9b-08bd6dc9607c
+2026-03-12 18:35:46 | INFO     | rag_agent | rag_agent done | response=在《精灵宝可梦》中，小智的第一只宝可梦是皮卡丘（Pikachu）。皮卡丘是该系列的标志性角色，也是小智最亲密的伙伴。你对小智和皮卡丘的冒险故事有什么特别感兴趣的
+2026-03-12 18:36:17 | INFO     | main | → GET /conversations/630d240e-e5f4-4fa6-9e9b-08bd6dc9607c/messages | client=127.0.0.1
+2026-03-12 18:36:17 | INFO     | main | ← GET /conversations/630d240e-e5f4-4fa6-9e9b-08bd6dc9607c/messages | status=200 | 3.7ms
+2026-03-12 18:39:04 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 18:40:00 | INFO     | tool_registry | 工具数据库初始化完成
+2026-03-12 18:41:33 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:41:33 | INFO     | main | ← GET /conversations | status=200 | 107.48ms
+2026-03-12 18:41:37 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:41:37 | INFO     | main | ← GET /conversations | status=200 | 2.99ms
+2026-03-12 18:41:58 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:41:58 | INFO     | main | ← GET /conversations | status=200 | 2.99ms
+2026-03-12 18:42:21 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:42:21 | INFO     | main | ← GET /conversations | status=200 | 1.99ms
+2026-03-12 18:42:21 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:42:21 | INFO     | main | ← GET /conversations | status=200 | 3.69ms
+2026-03-12 18:43:01 | INFO     | main | → PUT /conversations/630d240e-e5f4-4fa6-9e9b-08bd6dc9607c/title | client=127.0.0.1
+2026-03-12 18:43:01 | INFO     | main | ← PUT /conversations/630d240e-e5f4-4fa6-9e9b-08bd6dc9607c/title | status=200 | 8.52ms
+2026-03-12 18:43:02 | INFO     | main | → POST /conversations | client=127.0.0.1
+2026-03-12 18:43:02 | INFO     | main | ← POST /conversations | status=200 | 15.02ms
+2026-03-12 18:43:02 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:43:02 | INFO     | main | ← GET /conversations | status=200 | 2.95ms
+2026-03-12 18:43:04 | INFO     | main | → DELETE /conversations/8aad2460-aa82-4e80-9b67-a24346977957 | client=127.0.0.1
+2026-03-12 18:43:05 | INFO     | main | ← DELETE /conversations/8aad2460-aa82-4e80-9b67-a24346977957 | status=200 | 11.59ms
+2026-03-12 18:43:05 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:43:05 | INFO     | main | ← GET /conversations | status=200 | 2.46ms
+2026-03-12 18:43:15 | INFO     | main | → PUT /conversations/630d240e-e5f4-4fa6-9e9b-08bd6dc9607c/title | client=127.0.0.1
+2026-03-12 18:43:15 | INFO     | main | ← PUT /conversations/630d240e-e5f4-4fa6-9e9b-08bd6dc9607c/title | status=200 | 9.98ms
+2026-03-12 18:44:01 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 18:44:01 | INFO     | main | ← GET /knowledge/list | status=200 | 2.0ms
+2026-03-12 18:44:01 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 18:44:01 | INFO     | main | ← GET /knowledge/list | status=200 | 1.69ms
+2026-03-12 18:44:13 | INFO     | main | → POST /knowledge/upload | client=127.0.0.1
+2026-03-12 18:44:13 | DEBUG    | file_security | 文件名安全处理：chatGPT泰国手机账户.png → chatGPT泰国手机账户.png
+2026-03-12 18:44:13 | DEBUG    | file_security | 文件大小校验通过：chatGPT泰国手机账户.png | 108.76KB
+2026-03-12 18:44:13 | DEBUG    | file_security | magic bytes 校验通过：chatGPT泰国手机账户.png
+2026-03-12 18:44:13 | INFO     | file_security | 文件校验通过：chatGPT泰国手机账户.png | 大小=108.76KB
+2026-03-12 18:44:13 | INFO     | main | ← POST /knowledge/upload | status=200 | 14.96ms
+2026-03-12 18:44:13 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 18:44:13 | INFO     | main | ← GET /knowledge/list | status=200 | 1.08ms
+2026-03-12 18:44:26 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 18:44:26 | INFO     | main | ← GET /tools | status=200 | 3.37ms
+2026-03-12 18:44:26 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 18:44:26 | INFO     | main | ← GET /tools | status=200 | 2.15ms
+2026-03-12 18:46:20 | INFO     | main | → POST /conversations | client=127.0.0.1
+2026-03-12 18:46:20 | INFO     | main | ← POST /conversations | status=200 | 8.71ms
+2026-03-12 18:46:20 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:46:20 | INFO     | main | ← GET /conversations | status=200 | 6.36ms
+2026-03-12 18:46:20 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 18:46:20 | INFO     | main | ← POST /chat/stream | status=200 | 16.51ms
+2026-03-12 18:46:22 | INFO     | intent_router | ROUTER:tool
+2026-03-12 18:46:22 | INFO     | router | run_agent_stream | intent=tool | thread_id=ecd70141-63e4-488c-8ba9-c12f46d670c3
+2026-03-12 18:46:22 | INFO     | tool_agent | >>> [tool_agent] 开始执行
+2026-03-12 18:46:22 | INFO     | tool_agent | >>> [tool_agent] 加载工具列表...
+2026-03-12 18:46:22 | DEBUG    | tool_registry | 内置工具已加载：get_weather
+2026-03-12 18:46:22 | DEBUG    | tool_registry | 内置工具已加载：search_docs
+2026-03-12 18:46:22 | DEBUG    | tool_registry | 动态工具函数解析成功：get_exchange_rate | 参数=['currency_pair']
+2026-03-12 18:46:22 | INFO     | tool_registry | 动态工具注册成功：get_exchange_rate
+2026-03-12 18:46:22 | INFO     | tool_registry | 已加载工具列表：['get_weather', 'search_docs', 'get_exchange_rate']
+2026-03-12 18:46:22 | INFO     | tool_agent | >>> [tool_agent] 已加载工具：['get_weather', 'search_docs', 'get_exchange_rate']
+2026-03-12 18:46:22 | INFO     | tool_agent | >>> [tool_agent] 初始化 LLM...
+2026-03-12 18:46:22 | INFO     | tool_agent | >>> [tool_agent] 创建 ReAct agent...
+2026-03-12 18:46:22 | INFO     | tool_agent | >>> [tool_agent] 调用 agent.invoke...
+2026-03-12 18:46:24 | INFO     | tool_agent | >>> [tool_agent] agent.invoke 完成
+2026-03-12 18:46:24 | INFO     | tool_agent | >>> [tool_agent] 原始返回：下面是一个实现两数之和的工具函数，遵循您提供的代码结构：
+
+```python
+def sum_tool(num1: float, num2: float) -> str:
+    from tools.tool_response import success, logic_error, code_error
+    try:
+        if num1 is None or num2 is None:
+            return logic_error("参数不能为空")
+        result = num1 + num2
+        return success(f"两数之和：{result}")
+    except Exception as e:
+        return code_error(str(e))
+```
+
+这个函数 `sum_tool` 接受两个参数 `num1` 和 `num2`，并返回它们的和。如果参数为空，则返回逻辑错误信息。如果发生其他异常，则返回代码错误信息。
+2026-03-12 18:52:07 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:52:07 | INFO     | main | ← GET /conversations | status=200 | 2.99ms
+2026-03-12 18:52:07 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:52:07 | INFO     | main | ← GET /conversations | status=200 | 2.34ms
+2026-03-12 18:54:20 | INFO     | main | → GET /conversations/ecd70141-63e4-488c-8ba9-c12f46d670c3/messages | client=127.0.0.1
+2026-03-12 18:54:20 | INFO     | main | ← GET /conversations/ecd70141-63e4-488c-8ba9-c12f46d670c3/messages | status=200 | 5.99ms
+2026-03-12 18:54:55 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 18:54:55 | INFO     | main | ← POST /chat/stream | status=200 | 44.62ms
+2026-03-12 18:54:57 | INFO     | intent_router | ROUTER:chat
+2026-03-12 18:54:57 | INFO     | router | run_agent_stream | intent=chat | thread_id=ecd70141-63e4-488c-8ba9-c12f46d670c3
+2026-03-12 18:54:57 | INFO     | general_agent | general_agent | thread_id=ecd70141-63e4-488c-8ba9-c12f46d670c3 | question=再次回答一下上述问题。
+2026-03-12 18:55:00 | INFO     | general_agent | general_agent | 消息历史长度=4
+2026-03-12 18:55:00 | INFO     | general_agent |   [0] human: def my_tool(param: str) -> str:
+    from tools.tool_response
+2026-03-12 18:55:00 | INFO     | general_agent |   [1] ai: 下面是一个实现两数之和的工具函数，遵循您提供的代码结构：
+
+```python
+def sum_tool(num1: f
+2026-03-12 18:55:00 | INFO     | general_agent |   [2] human: 再次回答一下上述问题。
+2026-03-12 18:55:00 | INFO     | general_agent |   [3] ai: 当然可以！以下是一个实现两数之和的工具函数，遵循您提供的代码结构：
+
+```python
+def sum_tool(nu
+2026-03-12 18:58:40 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:58:40 | INFO     | main | ← GET /conversations | status=200 | 4.98ms
+2026-03-12 18:58:40 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:58:40 | INFO     | main | ← GET /conversations | status=200 | 3.68ms
+2026-03-12 18:58:44 | INFO     | main | → GET /conversations/ecd70141-63e4-488c-8ba9-c12f46d670c3/messages | client=127.0.0.1
+2026-03-12 18:58:44 | INFO     | main | ← GET /conversations/ecd70141-63e4-488c-8ba9-c12f46d670c3/messages | status=200 | 3.01ms
+2026-03-12 18:59:01 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 18:59:01 | INFO     | main | ← GET /tools | status=200 | 1.06ms
+2026-03-12 18:59:01 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 18:59:01 | INFO     | main | ← GET /tools | status=200 | 2.03ms
+2026-03-12 18:59:22 | INFO     | main | → POST /tools | client=127.0.0.1
+2026-03-12 18:59:22 | INFO     | tool_registry | 工具已添加：sum_tool
+2026-03-12 18:59:22 | INFO     | main | ← POST /tools | status=200 | 12.24ms
+2026-03-12 18:59:23 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 18:59:23 | INFO     | main | ← GET /tools | status=200 | 2.03ms
+2026-03-12 18:59:40 | INFO     | main | → POST /conversations | client=127.0.0.1
+2026-03-12 18:59:40 | INFO     | main | ← POST /conversations | status=200 | 12.08ms
+2026-03-12 18:59:40 | INFO     | main | → GET /conversations | client=127.0.0.1
+2026-03-12 18:59:40 | INFO     | main | ← GET /conversations | status=200 | 6.95ms
+2026-03-12 19:00:14 | INFO     | main | → POST /chat/stream | client=127.0.0.1
+2026-03-12 19:00:14 | INFO     | main | ← POST /chat/stream | status=200 | 17.03ms
+2026-03-12 19:00:16 | INFO     | intent_router | ROUTER:tool
+2026-03-12 19:00:16 | INFO     | router | run_agent_stream | intent=tool | thread_id=4fa7f84e-4f49-400b-b64d-8483dd6cac07
+2026-03-12 19:00:16 | INFO     | tool_agent | >>> [tool_agent] 开始执行
+2026-03-12 19:00:16 | INFO     | tool_agent | >>> [tool_agent] 加载工具列表...
+2026-03-12 19:00:16 | DEBUG    | tool_registry | 内置工具已加载：get_weather
+2026-03-12 19:00:16 | DEBUG    | tool_registry | 内置工具已加载：search_docs
+2026-03-12 19:00:16 | DEBUG    | tool_registry | 动态工具函数解析成功：get_exchange_rate | 参数=['currency_pair']
+2026-03-12 19:00:16 | INFO     | tool_registry | 动态工具注册成功：get_exchange_rate
+2026-03-12 19:00:16 | DEBUG    | tool_registry | 动态工具函数解析成功：sum_tool | 参数=['num1', 'num2']
+2026-03-12 19:00:16 | INFO     | tool_registry | 动态工具注册成功：sum_tool
+2026-03-12 19:00:16 | INFO     | tool_registry | 已加载工具列表：['get_weather', 'search_docs', 'get_exchange_rate', 'sum_tool']
+2026-03-12 19:00:16 | INFO     | tool_agent | >>> [tool_agent] 已加载工具：['get_weather', 'search_docs', 'get_exchange_rate', 'sum_tool']
+2026-03-12 19:00:16 | INFO     | tool_agent | >>> [tool_agent] 初始化 LLM...
+2026-03-12 19:00:16 | INFO     | tool_agent | >>> [tool_agent] 创建 ReAct agent...
+2026-03-12 19:00:16 | INFO     | tool_agent | >>> [tool_agent] 调用 agent.invoke...
+2026-03-12 19:00:17 | INFO     | tool_registry | [sum_tool] 调用开始 | kwargs={'num1': '99', 'num2': '1'}
+2026-03-12 19:00:17 | INFO     | tool_registry | [sum_tool] 调用成功 | result=两数之和：991
+2026-03-12 19:00:18 | INFO     | tool_agent | >>> [tool_agent] agent.invoke 完成
+2026-03-12 19:00:18 | INFO     | tool_agent | >>> [tool_agent] 原始返回：99加1的和是100。
+2026-03-12 19:00:53 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 19:00:53 | INFO     | main | ← GET /knowledge/list | status=200 | 4.61ms
+2026-03-12 19:00:53 | INFO     | main | → GET /knowledge/list | client=127.0.0.1
+2026-03-12 19:00:53 | INFO     | main | ← GET /knowledge/list | status=200 | 1.31ms
+2026-03-12 19:00:53 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 19:00:53 | INFO     | main | ← GET /tools | status=200 | 1.19ms
+2026-03-12 19:00:54 | INFO     | main | → GET /tools | client=127.0.0.1
+2026-03-12 19:00:54 | INFO     | main | ← GET /tools | status=200 | 2.22ms
+2026-03-12 19:06:14 | INFO     | main | → PUT /conversations/4fa7f84e-4f49-400b-b64d-8483dd6cac07/title | client=127.0.0.1
+2026-03-12 19:06:14 | INFO     | main | ← PUT /conversations/4fa7f84e-4f49-400b-b64d-8483dd6cac07/title | status=200 | 12.62ms

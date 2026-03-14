@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  height: 100%;
+  background: #0d0f12;
+  color: #e8eaf0;
+  font-family: 'Sora', sans-serif;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #252932; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #00d4ff44; }
+
+/* 选中文字 */
+::selection { background: #00d4ff33; color: #e8eaf0; }
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent text-bg-base font-medium px-4 py-2 rounded-lg
+           hover:bg-accent-hover transition-all duration-150
+           disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply text-text-secondary px-3 py-2 rounded-lg
+           hover:bg-bg-elevated hover:text-text-primary transition-all duration-150;
+  }
+  .input-base {
+    @apply bg-bg-elevated border border-bg-border rounded-lg px-3 py-2
+           text-text-primary placeholder-text-muted outline-none
+           focus:border-accent transition-colors duration-150 w-full;
+  }
+  .card {
+    @apply bg-bg-surface border border-bg-border rounded-xl p-4;
+  }
+  .tag {
+    @apply text-xs font-mono px-2 py-0.5 rounded-full border;
+  }
+}

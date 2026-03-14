@@ -1,0 +1,2 @@
+LangChain is a framework for building LLM applications.
+RAG stands for Retrieval Augmented Generation.

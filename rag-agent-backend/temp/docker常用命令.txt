@@ -1,0 +1,31 @@
+1. 查看docker正在运行的容器
+docker ps
+2. 查看docker中所有容器，包含正在运行和停止的
+docker ps -a
+3. 查看docker所有镜像
+docker images
+4. 启动某停止的容器
+	（1）docker ps -a
+	（2) docker start 容器名/容器ID
+5. 重启某容器
+	（1）docker ps
+	（2）docker restart 容器名/容器ID
+6. 停止某容器
+	（1）docker ps
+	（2）docker stop 容器名/容器ID
+7. 从镜像运行成容器（可以理解为镜像的实例化）
+	（1）docker 从data_test:v1镜像运行容器data_test，端口映射7001。（-d代表后台运行）
+	命令：docker run -d --name data_test -p 7001:7001 data_test:v1
+	（2）docker 从data_test:v1镜像运行容器data_test，端口映射7001。（-it代表进入容器内部运行，注意此时将操作容器内）
+	docker run -it --name data_test -p 7001:7001 data_test:v1 /bin/bash
+8. 进入运行的容器内
+	（1）docker ps
+	（2）docker exec -it 容器名/容器ID /bin/bash
+9. 将容器提交成镜像
+	(1)docker ps
+	(2)docker commit 容器名/容器ID 镜像名:镜像版本(例如v1)
+10. 将镜像保存成文件，迁移镜像
+	（1）docker images
+	（2）docker save -o 文件名.tar 镜像名：镜像版本
+11. 从本地镜像文件加载到本地docker镜像库
+docker load -i 文件名.tar
